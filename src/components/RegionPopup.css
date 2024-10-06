@@ -1,0 +1,18 @@
+.region-popup {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .region-popup h3 {
+    font-size: 18px;
+    color: #007BFF;
+    margin-bottom: 5px;
+  }
+  
+  .region-popup p {
+    font-size: 14px;
+    margin: 2px 0;
+  }
+  

@@ -1,0 +1,56 @@
+.sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 100px;
+    margin-left: 30px;
+  }
+  
+  .sidebar h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .sidebar select:hover {
+    border-color: #0056b3;
+  }
+  .app {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .climate-data {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  .community-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .community-btn:hover {
+    background-color: #45a049;
+  }
+  

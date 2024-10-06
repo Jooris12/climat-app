@@ -1,0 +1,103 @@
+.marker-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .marker-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  .marker-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .marker-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 500ms, transform 500ms;
+  }
+  /* Style global pour le conteneur de la carte */
+#gabon-map {
+    height: 500px; /* Hauteur de la carte */
+    border-radius: 8px; /* Coins arrondis pour un aspect plus doux */
+    overflow: hidden; /* Évite le débordement du contenu */
+    
+  }
+  
+  /* Style du tableau de prévisions météo */
+  .weather-dashboard {
+    background-color: #2c2f33; /* Fond sombre pour le tableau */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    max-width: 800px; /* Largeur maximale */
+    margin: 20px auto; /* Centrage du tableau */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    color: aliceblue;/* Ombre pour donner de la profondeur */
+    
+  }
+  
+  /* Style pour les éléments du tableau de prévisions */
+  .weather-item {
+    text-align: center; /* Alignement centré */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+    cursor: pointer; /* Curseur de pointeur pour les éléments cliquables */
+  }
+  
+  .weather-item:hover {
+    background-color: #3b3f44; /* Couleur de fond au survol */
+  }
+  
+  .weather-item.selected {
+    background-color: #4a4e54; /* Couleur de fond pour l'élément sélectionné */
+  }
+  
+  /* Style pour les données météorologiques actuelles */
+  .current-weather {
+    display: flex; /* Utilisation de Flexbox pour une meilleure disposition */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Alignement vertical centré */
+  }
+  
+  .current-weather .temp {
+    font-size: 48px; /* Taille de police plus grande pour la température */
+    font-weight: bold; /* Gras pour le texte */
+  }
+  
+  .current-weather .details {
+    text-align: right; /* Alignement à droite pour les détails */
+  }
+  
+  /* Style pour les icônes (si vous en ajoutez) */
+  .icon {
+    margin-right: 5px; /* Espacement à droite de l'icône */
+  }
+  .impact-button {
+    display: block;
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 800px;
+  }
+  
+  .impact-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Style responsive */
+  @media (max-width: 768px) {
+    .weather-dashboard {
+      padding: 15px; /* Espacement intérieur réduit sur les petits écrans */
+    }
+  
+    .current-weather .temp {
+      font-size: 36px; /* Réduction de la taille de la police pour les petits écrans */
+    }
+  }
+  

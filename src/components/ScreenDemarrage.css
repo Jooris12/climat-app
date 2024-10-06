@@ -1,0 +1,40 @@
+.screen-demarrage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;   
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color:  #4CAF50;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:  #4CAF50;
+  }
+  .screen-demarrage img{
+    margin-top: -50px;
+  }
+  .start-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .demarrage-video {
+    width: 100%;
+    height: 250px;
+    max-height: 100vh; /* Limiter la hauteur à la hauteur de l'écran */
+  }
+  
+  .start-btn:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,57 @@
+
+ 
+  .community-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+  }
+  .community-container p {
+    color: black;
+  }
+  
+  .community-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .community-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .community-input,
+  .community-textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .community-submit-btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .posts-list {
+    margin-top: 20px;
+  }
+  
+  .post-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
